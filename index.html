@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title></title>
+</head>
+
+<body>
+
+  <!-- clock -->
+  <div id="clock">
+    <h2>00:00:00</h2>
+  </div>
+
+  <!-- greeting -->
+  <h2 id="greeting"></h2>
+  <form id="logon-form" class="hidden">
+    <input required maxlength="15" type="text" placeholder="너의 이름은?">
+    <button>log in</button>
+  </form>
+
+  <!-- ToDo List -->
+  <form id="todo-form">
+    <input type="text" placeholder="할 일을 쓰시오" required>
+  </form>
+  <ul id="todo-list"></ul>
+
+  <!-- random quote -->
+  <div id="quotes">
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- weather -->
+  <div id="weather">
+    <span></span>
+    <span></span>
+  </div>
+
+  <script src="/js/clock.js"></script>
+  <script src="/js/greeting.js"></script>
+  <script src="/js/quote.js"></script>
+  <script src="/js/todo-list.js"></script>
+  <script src="/js/weather.js"></script>
+  <script src="/js/background.js"></script>
+</body>
+
+</html>
